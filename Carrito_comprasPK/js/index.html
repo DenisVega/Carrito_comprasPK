@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuidora Peru Kolqe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/main.css">
+    
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Peru Kolque</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li><button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-fill"></i>Todos los productos</button></li>
+                    <li><button id="motos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i></i>Aceite para motos</button></li>
+                    <li><button id="autos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Aceite para autos</button></li>
+                    <li><button id="camiones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Aceite para camiones</button></li>
+                    <li><a href="../js/carrito.html"><button class="boton-menu boton-carrito"><i class="bi bi-cart-fill"></i>Carrito <span class="numerito">0</span></button></a></li>
+                </ul>
+            </nav>
+            
+            <footer>
+                <p class="texto-footer">© 2023 SixterVega</p>
+            </footer>
+        </aside>
+        
+        <main>
+            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!--Esto se va a rellenar con JS-->
+            </div>
+        </main>
+    </div>
+    
+    <script src="../js/main.js"></script> <!--En este caso si funciona el vinculo JS-->
+    
+</body>
+
+</html>
